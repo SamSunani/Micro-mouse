@@ -1,0 +1,146 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Fri May 25 20:32:05 2012
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x0003ec
+.config_2007_SUPER_CENTERING.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x0001f9      
+                            0x002007    0x002007      
+            504 out of 8454 program addresses used, program memory utilization is 5%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 DELAY_1S   0x00004d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               DELAY_20uS   0x000048    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               DELAY_40uS   0x00003f    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  INNER_5   0x00007b    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 Init_A2D   0x000005    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  LOOP_20   0x00004a    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  LOOP_40   0x000044    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  OUTER_5   0x000074    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 Read_A2D   0x000013    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 bin_2ASC   0x00001d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   bump10   0x000034    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  bump100   0x000027    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  check_centering_sensors   0x000144    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 convWAIT   0x000017    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               delay_50ms   0x000072    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 distance   0x0000ab    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                dont_move   0x0000d1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    end10   0x000036    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   end100   0x000029    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  forward   0x0000c3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                isr_start   0x0001d2    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               left_check   0x000116    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+        left_collision_WD   0x00019e    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+   left_collision_correct   0x00017c    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                left_turn   0x000124    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+      left_wall_centering   0x000166    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+   left_wall_centering_WD   0x0001b4    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                     loop   0x000064    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 loop_ext   0x000062    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                loop_ext1   0x00005a    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               main_start   0x00009d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+             move_forward   0x0000e4    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+      move_forward_center   0x0000f3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+move_forward_center_reset   0x0000f1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   moving   0x0000e8    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            moving_center   0x0000f7    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            read_distance   0x0000a6    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+           resume_forward   0x0000fd    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+       right_collision_WD   0x0001a9    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  right_collision_correct   0x000187    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               right_turn   0x000130    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+     right_wall_centering   0x000171    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  right_wall_centering_WD   0x0001bf    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+             sensor_check   0x000100    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    setup   0x000085    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    sub10   0x00002f    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   sub100   0x000022    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                     test   0x0000e1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              test_center   0x0000ee    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              timer_setup   0x000090    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 turn_set   0x00013c    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              turn_set_WD   0x0001ca    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  turning   0x00013e    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               turning_wd   0x0001cc    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+    wall_detect_centering   0x000192    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            wall_detected   0x0000d3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 Init_A2D   0x000005    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 Read_A2D   0x000013    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 convWAIT   0x000017    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 bin_2ASC   0x00001d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   sub100   0x000022    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  bump100   0x000027    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   end100   0x000029    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    sub10   0x00002f    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   bump10   0x000034    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    end10   0x000036    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               DELAY_40uS   0x00003f    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  LOOP_40   0x000044    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               DELAY_20uS   0x000048    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  LOOP_20   0x00004a    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 DELAY_1S   0x00004d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                loop_ext1   0x00005a    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 loop_ext   0x000062    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                     loop   0x000064    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               delay_50ms   0x000072    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  OUTER_5   0x000074    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  INNER_5   0x00007b    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                    setup   0x000085    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              timer_setup   0x000090    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               main_start   0x00009d    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            read_distance   0x0000a6    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 distance   0x0000ab    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  forward   0x0000c3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                dont_move   0x0000d1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            wall_detected   0x0000d3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                     test   0x0000e1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+             move_forward   0x0000e4    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                   moving   0x0000e8    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              test_center   0x0000ee    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+move_forward_center_reset   0x0000f1    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+      move_forward_center   0x0000f3    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+            moving_center   0x0000f7    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+           resume_forward   0x0000fd    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+             sensor_check   0x000100    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               left_check   0x000116    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                left_turn   0x000124    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               right_turn   0x000130    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                 turn_set   0x00013c    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                  turning   0x00013e    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  check_centering_sensors   0x000144    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+      left_wall_centering   0x000166    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+     right_wall_centering   0x000171    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+   left_collision_correct   0x00017c    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  right_collision_correct   0x000187    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+    wall_detect_centering   0x000192    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+        left_collision_WD   0x00019e    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+       right_collision_WD   0x0001a9    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+   left_wall_centering_WD   0x0001b4    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+  right_wall_centering_WD   0x0001bf    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+              turn_set_WD   0x0001ca    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+               turning_wd   0x0001cc    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+                isr_start   0x0001d2    program     static C:\Users\Kyber\Dropbox\ECHELON V\Codes\SUPER_CENTERING_BUILD 3\Super_centering.asm
+
+
